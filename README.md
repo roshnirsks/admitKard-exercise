@@ -70,7 +70,7 @@ $ git clone https://github.com/roshnirsks/admitKard-exercise.git
 ## Signin
 url:
 ```
-http://localhost:3000/api/admitKard/sendOtp
+http://localhost:3000/api/admitKard/userLogin/sendOtp
 ```
 method:
 ```
@@ -96,7 +96,7 @@ response:
 ## Login
 url:
 ```
-http://localhost:3000/api/admitKard/verifyOtp
+http://localhost:3000/api/admitKard/userLogin/verifyOtp
 ```
 method:
 ```
