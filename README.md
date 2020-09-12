@@ -1,6 +1,6 @@
 # AdmitKard Exercise - II [OTP Verification]
 
-A Simple Web Application to Authenticate User with One Time Password using their Phone Number.  The application consists of 
+A Simple and Responsive Web Application to Authenticate User with One Time Password using their Phone Number.  The application consists of 
 * Mobile Number Screen
 * OTP Verification Screen
 * Success Screen
