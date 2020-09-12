@@ -4,6 +4,15 @@ A Simple and Responsive Web Application to Authenticate User with One Time Passw
 * Mobile Number Screen
 * OTP Verification Screen
 * Success Screen
+# Screen Shots
+![otp-verify-failed-screen](https://user-images.githubusercontent.com/53308191/93003881-02bfa100-f560-11ea-9478-decf2e8f4c42.JPG)
+![otp-verify-screen](https://user-images.githubusercontent.com/53308191/93003883-04896480-f560-11ea-80ff-9a8a74096de3.JPG)
+![welcome-screen](https://user-images.githubusercontent.com/53308191/93003885-0521fb00-f560-11ea-9ce8-0d27f396eb2b.JPG)
+![login-invalid-screen](https://user-images.githubusercontent.com/53308191/93003886-05ba9180-f560-11ea-8639-ed6e5bf8d5eb.JPG)
+![login-require-pattern-screen](https://user-images.githubusercontent.com/53308191/93003888-06532800-f560-11ea-84b1-afb87f958fc9.JPG)
+![login-require-screen](https://user-images.githubusercontent.com/53308191/93003889-06ebbe80-f560-11ea-8657-f5b717cf5925.JPG)
+![login-screen](https://user-images.githubusercontent.com/53308191/93003890-07845500-f560-11ea-9391-70747ddca537.JPG)
+
 
 ## Workflow
 * Open the index.html file from the project "client" folder
