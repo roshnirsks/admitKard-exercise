@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admit Kard Login</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/signin.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrap-form">
+            <form class="form-signin" onsubmit="return false">
+                <img class="admit-kard-logo" src="images/AK_logo.png" alt="admit-kard-logo">
+                <h1>Welcome Back</h1>
+                <p class="signin-text">Please sign in to your account</p>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" title="10 digit no. only" class="form-control text-center" placeholder="Enter Contact Number" required minlength="10" maxlength="10">
+                <span class="error"></span>
+                <p class="send-op-text">
+                    <span>We will send you a one time SMS message.</span>
+                    <br>
+                    <span>Charges may apply</span>
+                </p>
+                <input class="btn btn-primary btn-block btn-signin" type="submit" value="Sign In with OTP">
+            </form>
+        </div>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.wrap-form {
+    background: #FFFFFF;
+    overflow: hidden;
+    padding: 90px 16px 90px 16px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.form-signin {
+    width: 100%;
+}
+
+.signin-text {
+    margin-top: 20px;
+}
+
+.form-signin input[type="tel"] {
+    margin-top: 50px;
+    height: 44px;
+    border: 1px solid #FFD37D;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #999999;
+}
+
+h1,
+p {
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 70px;
+}
+
+.verify-opt-h1 {
+    font-size: 20px;
+    line-height: 23px;
+    color: #333333;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.send-op-text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    margin-top: 30px;
+}
+
+.btn-signin {
+    background: #F7B348;
+    border-radius: 100px;
+    border-color: transparent;
+    width: 224px !important;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: #F7B348;
+    border-color: #F7B348;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    background-color: #F7B348;
+    border-color: #F7B348;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    border-color: #F7B348;
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    background-color: #F7B348;
+    border-color: #F7B348;
+}
+
+.error,
+#otp-error {
+    font-size: 10px;
+    font-weight: bold;
+    color: #ff0033;
+}
+
+.valid-format {
+    font-size: 12px;
+    color: #999999;
+}
+
+.welcome-h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 40px;
+}
+
+.started-text {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admit Kard Otp Verification</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/signin.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrap-form">
+            <form class="form-signin" onsubmit="return false">
+                <img class="admit-kard-logo" src="images/Ellipse 79.png" alt="admit-kard-logo">
+                <h1 class="verify-opt-h1">Please verify Mobile number</h1>
+                <p class="signin-text">An OTP is sent to <span id="user-phone"></span></p>
+                <input type="tel" id="otp" name="otp" pattern="[0-9]{4}" title="4 digit opt" class="form-control text-center" placeholder="Enter otp" required minlength="4" maxlength="4">
+                <span class="error"></span>
+                <span id="otp-error"></span>
+                <input class="btn btn-primary btn-block btn-signin" type="submit" value="Verify">
+            </form>
+        </div>
+    </div>
+    <script>
+        document.getElementById("user-phone").innerHTML = localStorage.getItem('phone');
+    </script>
+    <script src="./js/verify.js"></script>
+</body>
+
+</html>
